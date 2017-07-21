@@ -1,0 +1,6 @@
+framework module Pods_TabViewExample {
+  umbrella header "Pods-TabViewExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

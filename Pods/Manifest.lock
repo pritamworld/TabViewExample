@@ -1,0 +1,34 @@
+PODS:
+  - FTPopOverMenu_Swift (0.0.7)
+  - MMDrawController (0.2.0)
+  - PinCodeTextField (0.0.4):
+    - PinCodeTextField/Swift (= 0.0.4)
+  - PinCodeTextField/Core (0.0.4)
+  - PinCodeTextField/Swift (0.0.4):
+    - PinCodeTextField/Core
+  - SwiftyNotifications (0.2)
+
+DEPENDENCIES:
+  - FTPopOverMenu_Swift (~> 0.0.6)
+  - MMDrawController
+  - PinCodeTextField (from `https://github.com/tkach/PinCodeTextField`)
+  - SwiftyNotifications (~> 0.2)
+
+EXTERNAL SOURCES:
+  PinCodeTextField:
+    :git: https://github.com/tkach/PinCodeTextField
+
+CHECKOUT OPTIONS:
+  PinCodeTextField:
+    :commit: 1fb330465e158319751b9783d15811dd4841a4cd
+    :git: https://github.com/tkach/PinCodeTextField
+
+SPEC CHECKSUMS:
+  FTPopOverMenu_Swift: 8939e3c98a72217c761e806c915101227ed7c8fc
+  MMDrawController: 28c9b48a2e8ca93ccf75111a0cbb58f8a0100224
+  PinCodeTextField: 1248da9733734692d598941a5a0866af1ffc5e0a
+  SwiftyNotifications: cc9405eccc57d4139fd1aac075ed77c8f43c8c17
+
+PODFILE CHECKSUM: 910bcf8f2eaece36911b0348eccfdb2eb4002565
+
+COCOAPODS: 1.2.1

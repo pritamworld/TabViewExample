@@ -1,0 +1,1154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BA5D592FA79C781329D5BF6AE63181 /* SliderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA5FCDBD7E1587959033E5C24714B5 /* SliderManager.swift */; };
+		228E7647D31DDBA87009B6BF4EBAD899 /* SwiftyNotificationsColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DEB34C64050A8F445F2CB20E66BB4E /* SwiftyNotificationsColor.swift */; };
+		27DCA4CC51F7FB83FB2AFBF817CD7AEA /* MMDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5931AB340398EA23D8E871BBDD215288 /* MMDrawerViewController.swift */; };
+		2D493C1C7DEBE77AF4CB87180FD2F0A5 /* PinCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2AC0D611AA686770BCF51B2FD92BDF /* PinCodeTextFieldDelegate.swift */; };
+		2E90CAC01515D726998C09FC283D1E65 /* SwiftyNotifications.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CACE39E17CCFAD623EA46FD6304804F /* SwiftyNotifications.xib */; };
+		3066727CC4BEF2748BC3EB6BEFB19487 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3622ABD65FF659E1892727EEB4E3DD /* StringExtension.swift */; };
+		32C635180BCEFC4DD7756C75E73DFC46 /* PinCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A2749FF24DB2030CC6EE8271866B9 /* PinCodeTextField.swift */; };
+		36457DA60B5DC588C131D3E58EBF6283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		393FE8225D0D39EBC8D2E741D468203E /* PinCodeTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0B9A59E9B81578F634A1B416C1B78E /* PinCodeTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EAD65E9C702077EB735A25C4339EA89 /* SwiftyNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B70AB36FADC1FF394D1CE303ABCA8B /* SwiftyNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A5E5FDDCA86FEEC6AF2951E132D841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		461A0E2208C77C106FABFC50959206BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		58DC368D5160EEE8BDEB723FF0D2EBBE /* MMDrawController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBCF38797AE93FCCA600A5177861BC8 /* MMDrawController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DECFD620E38C48E7DFD234795D15481 /* MMDrawController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7800D2EF2F4AEFF3CADDD80115CAB0DF /* MMDrawController-dummy.m */; };
+		6865EE348850B129103481ADB619C645 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800CC7AC53CAB5BD23C9D23D1617B3C /* RoundedView.swift */; };
+		6D4C309EC7C51A8EF30B924A226D3256 /* Pods-TabViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C5283358D1E3D27DCD11AF7B1FE0D8 /* Pods-TabViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC1C2CEB4D82D8692474B9CBE7ADCB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8628C2337893C684C65F5EB1E75E8464 /* FTPopOverMenu_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3901FF88B9115B674908B9FA76C429 /* FTPopOverMenu_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F32229644F8AB6B7179CE51C39CB7DA /* SwiftyNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CFF94D9B8F02A550C32AA3D0E32847 /* SwiftyNotifications-dummy.m */; };
+		A5E31AABA3B59815A78A237E555B9712 /* UIVIew+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7D3E412C256A3C5E32D93D0CD69FF /* UIVIew+Draw.swift */; };
+		BC41E7B87FC45DAC600C91253B56BD40 /* FTPopOverMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177BC0FF5161A9CF00A10E9EA1B58DB8 /* FTPopOverMenu.swift */; };
+		BCAF6F28CDB9935855496C4FEBC63E51 /* Pods-TabViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA984CFB9E0E1539F749787D0A8A05FF /* Pods-TabViewExample-dummy.m */; };
+		C6BAC5F4562362BE99BD2B120EC32CDC /* PinCodeTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B242819CD798ED949CD743C5425061E5 /* PinCodeTextField-dummy.m */; };
+		C961BE587185FA5A6820DA1A31E1E624 /* CGPoint+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2826F2CBDB97B26DAD6EF7E410B4770 /* CGPoint+Draw.swift */; };
+		CB59654E677B4D9F6E1B2485DBCF1771 /* UIViewController+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BB6C132E6FA97579B8A6E9687D1592 /* UIViewController+Draw.swift */; };
+		CE3403CBFDE8FAEBFE4153254B0EA419 /* SwiftyNotificationsDrawings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944BF466F3EDDA86408760F909AD10C5 /* SwiftyNotificationsDrawings.swift */; };
+		CEB89D5EAF766064B93897C10D94322F /* FTPopOverMenu_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CE3E147908F4104A5512C9024CAB09 /* FTPopOverMenu_Swift-dummy.m */; };
+		D5D5ABF8103DA4D5723A9533970ABA14 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF798B45F1B40FEDF04ABF45662E8B /* IntExtension.swift */; };
+		E8C70120768D9778A5ADA2D2EE77A623 /* SwiftyNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12810EAF0B379E761B559BDEF9AE65C5 /* SwiftyNotifications.swift */; };
+		F19D6672A205E207DA7ECAE71BD65B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F7E1112676E656664721A897A86A372E /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A41FDEF638B95A3ACA165E38E9B1AFE /* TextHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27FDDB0806E1F11890A6B87B5EF40C40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E47C37FA72CC8CEC8A7DE74C95719FF;
+			remoteInfo = SwiftyNotifications;
+		};
+		2E36845FC282B67C6EAAE9CD9F83A939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E63D7D6CAD9361D6D8DF4B256A22F9A2;
+			remoteInfo = MMDrawController;
+		};
+		2EE969F27759ED18420E623163211520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874E480F85CBAA6C9526C6C5FBDD8AB4;
+			remoteInfo = PinCodeTextField;
+		};
+		346ABA4FBAB5529D54F1FF6A7D18AB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EC9035DEC9ACAE2EC8ADAAC0B00FFA;
+			remoteInfo = FTPopOverMenu_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B70AB36FADC1FF394D1CE303ABCA8B /* SwiftyNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyNotifications-umbrella.h"; sourceTree = "<group>"; };
+		07CE3E147908F4104A5512C9024CAB09 /* FTPopOverMenu_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTPopOverMenu_Swift-dummy.m"; sourceTree = "<group>"; };
+		0A76ACFB1831021058BA4DF6BFE8A887 /* MMDrawController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMDrawController.framework; path = MMDrawController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1034F334F3E77D00D5A89F8D3F137750 /* Pods-TabViewExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabViewExample-resources.sh"; sourceTree = "<group>"; };
+		11F5519D62A29A276FDE99DF7D7D9B8C /* PinCodeTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCodeTextField-prefix.pch"; sourceTree = "<group>"; };
+		12810EAF0B379E761B559BDEF9AE65C5 /* SwiftyNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyNotifications.swift; path = SwiftyNotifications/SwiftyNotifications.swift; sourceTree = "<group>"; };
+		1419CFA247506C362645FA142B8B4605 /* PinCodeTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PinCodeTextField.modulemap; sourceTree = "<group>"; };
+		177BC0FF5161A9CF00A10E9EA1B58DB8 /* FTPopOverMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTPopOverMenu.swift; path = FTPopOverMenu_Swift/FTPopOverMenu.swift; sourceTree = "<group>"; };
+		1800CC7AC53CAB5BD23C9D23D1617B3C /* RoundedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedView.swift; path = SwiftyNotifications/RoundedView.swift; sourceTree = "<group>"; };
+		1A282578EE659878B785855407BEB3A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24AC394B9E6062681B1A9C3A155F86C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FF798B45F1B40FEDF04ABF45662E8B /* IntExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtension.swift; path = Pod/Common/Extensions/IntExtension.swift; sourceTree = "<group>"; };
+		3A41FDEF638B95A3ACA165E38E9B1AFE /* TextHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextHelper.swift; path = Pod/Common/TextHelper/TextHelper.swift; sourceTree = "<group>"; };
+		3BBE7F622AECE9687E22FA8593D3BF60 /* Pods-TabViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43A70D93AD06DFFC49575F8B3E9C23B9 /* SwiftyNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyNotifications.modulemap; sourceTree = "<group>"; };
+		47D43B37E9BC277031A86C94C34BDC9A /* Pods_TabViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TabViewExample.framework; path = "Pods-TabViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B57B91114FDECEABD31B4894EAC7A0 /* FTPopOverMenu_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTPopOverMenu_Swift.xcconfig; sourceTree = "<group>"; };
+		585AF4BF96C75EB4F98ECF6302F1819D /* SwiftyNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyNotifications-prefix.pch"; sourceTree = "<group>"; };
+		58EAFD64706741494592206B8603CD47 /* Pods-TabViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		5931AB340398EA23D8E871BBDD215288 /* MMDrawerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMDrawerViewController.swift; path = MMDrawController/Classes/MMDrawerViewController.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E463AE6C75AF34FF553AC8410E185B7 /* FTPopOverMenu_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FTPopOverMenu_Swift.modulemap; sourceTree = "<group>"; };
+		772892E50FEA623F11A48CDCE2435AFE /* Pods-TabViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TabViewExample.modulemap"; sourceTree = "<group>"; };
+		7800D2EF2F4AEFF3CADDD80115CAB0DF /* MMDrawController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawController-dummy.m"; sourceTree = "<group>"; };
+		7F0B9A59E9B81578F634A1B416C1B78E /* PinCodeTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCodeTextField-umbrella.h"; sourceTree = "<group>"; };
+		87CFF94D9B8F02A550C32AA3D0E32847 /* SwiftyNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyNotifications-dummy.m"; sourceTree = "<group>"; };
+		91CA5FCDBD7E1587959033E5C24714B5 /* SliderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderManager.swift; path = MMDrawController/Classes/SliderManager.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944BF466F3EDDA86408760F909AD10C5 /* SwiftyNotificationsDrawings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyNotificationsDrawings.swift; path = SwiftyNotifications/SwiftyNotificationsDrawings.swift; sourceTree = "<group>"; };
+		9620579DF339EDFBE2602CC326FFA987 /* PinCodeTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PinCodeTextField.framework; path = PinCodeTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2F1F89BCE9B51E155B212860CCB0CF /* MMDrawController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawController-prefix.pch"; sourceTree = "<group>"; };
+		9CACE39E17CCFAD623EA46FD6304804F /* SwiftyNotifications.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwiftyNotifications.xib; path = SwiftyNotifications/SwiftyNotifications.xib; sourceTree = "<group>"; };
+		9EBCF38797AE93FCCA600A5177861BC8 /* MMDrawController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawController-umbrella.h"; sourceTree = "<group>"; };
+		A48926B2A87C373172010523CCBFE5B3 /* SwiftyNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyNotifications.framework; path = SwiftyNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6858401789E30DD062D5FE07A6C9A3F /* PinCodeTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinCodeTextField.xcconfig; sourceTree = "<group>"; };
+		A6BD8320D95316C6C8E58C02558E968C /* Pods-TabViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A70585793E8813388306D57CB3BEE189 /* SwiftyNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyNotifications.xcconfig; sourceTree = "<group>"; };
+		AA3622ABD65FF659E1892727EEB4E3DD /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Pod/Common/Extensions/StringExtension.swift; sourceTree = "<group>"; };
+		AA984CFB9E0E1539F749787D0A8A05FF /* Pods-TabViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabViewExample-dummy.m"; sourceTree = "<group>"; };
+		AC95E88B57D01C2196165B447AA44756 /* Pods-TabViewExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabViewExample-frameworks.sh"; sourceTree = "<group>"; };
+		AE2AC0D611AA686770BCF51B2FD92BDF /* PinCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinCodeTextFieldDelegate.swift; path = Pod/Swift/PinCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		B242819CD798ED949CD743C5425061E5 /* PinCodeTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinCodeTextField-dummy.m"; sourceTree = "<group>"; };
+		B2C5283358D1E3D27DCD11AF7B1FE0D8 /* Pods-TabViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabViewExample-umbrella.h"; sourceTree = "<group>"; };
+		CAFBA1D033C0A6EC6589FFE11D56B271 /* MMDrawController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMDrawController.modulemap; sourceTree = "<group>"; };
+		CB5E53D6D8D490E30F949C159851EC70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D134AF23FD06A317CB9B02A223494110 /* Pods-TabViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE903BD4DA77374A0E4172384965EE3D /* MMDrawController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMDrawController.xcconfig; sourceTree = "<group>"; };
+		E39A2749FF24DB2030CC6EE8271866B9 /* PinCodeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinCodeTextField.swift; path = Pod/Common/PinCodeTextField.swift; sourceTree = "<group>"; };
+		E8BB6C132E6FA97579B8A6E9687D1592 /* UIViewController+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Draw.swift"; path = "MMDrawController/Classes/UIViewController+Draw.swift"; sourceTree = "<group>"; };
+		E8DEB34C64050A8F445F2CB20E66BB4E /* SwiftyNotificationsColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyNotificationsColor.swift; path = SwiftyNotifications/SwiftyNotificationsColor.swift; sourceTree = "<group>"; };
+		E9E7D3E412C256A3C5E32D93D0CD69FF /* UIVIew+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIVIew+Draw.swift"; path = "MMDrawController/Classes/UIVIew+Draw.swift"; sourceTree = "<group>"; };
+		EFB2723571D41C84ED47F287ECAEE582 /* FTPopOverMenu_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FTPopOverMenu_Swift.framework; path = FTPopOverMenu_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2826F2CBDB97B26DAD6EF7E410B4770 /* CGPoint+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Draw.swift"; path = "MMDrawController/Classes/CGPoint+Draw.swift"; sourceTree = "<group>"; };
+		FB2DB98818E4A81BACF8CF0BE054754F /* FTPopOverMenu_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTPopOverMenu_Swift-prefix.pch"; sourceTree = "<group>"; };
+		FB3901FF88B9115B674908B9FA76C429 /* FTPopOverMenu_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTPopOverMenu_Swift-umbrella.h"; sourceTree = "<group>"; };
+		FBC4B351ACBCAF8A2D6E1D3F4393621C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFBDBD34F6B6F88EAE0222D4CD24153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05215723450FFE24ECB9689A803C2090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461A0E2208C77C106FABFC50959206BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADD4332A4FC962AC5751A533EECD784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC1C2CEB4D82D8692474B9CBE7ADCB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4B2FB8C4951DF9E420478D752BA7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36457DA60B5DC588C131D3E58EBF6283 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCC065364B881A363E34FC9214A7EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A5E5FDDCA86FEEC6AF2951E132D841 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E694ADD91D8155A3A739C40478A05270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19D6672A205E207DA7ECAE71BD65B63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA78F57AB558593EBE571A244A9F412 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E463AE6C75AF34FF553AC8410E185B7 /* FTPopOverMenu_Swift.modulemap */,
+				53B57B91114FDECEABD31B4894EAC7A0 /* FTPopOverMenu_Swift.xcconfig */,
+				07CE3E147908F4104A5512C9024CAB09 /* FTPopOverMenu_Swift-dummy.m */,
+				FB2DB98818E4A81BACF8CF0BE054754F /* FTPopOverMenu_Swift-prefix.pch */,
+				FB3901FF88B9115B674908B9FA76C429 /* FTPopOverMenu_Swift-umbrella.h */,
+				24AC394B9E6062681B1A9C3A155F86C5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FTPopOverMenu_Swift";
+			sourceTree = "<group>";
+		};
+		136E539994AD1F29BEAF779E1B0C817C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A44120A3375043060D9F04622C8B4FD6 /* Pods-TabViewExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		160D5853C34B4C5988507D30328E8EFD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBFBDBD34F6B6F88EAE0222D4CD24153 /* Info.plist */,
+				1419CFA247506C362645FA142B8B4605 /* PinCodeTextField.modulemap */,
+				A6858401789E30DD062D5FE07A6C9A3F /* PinCodeTextField.xcconfig */,
+				B242819CD798ED949CD743C5425061E5 /* PinCodeTextField-dummy.m */,
+				11F5519D62A29A276FDE99DF7D7D9B8C /* PinCodeTextField-prefix.pch */,
+				7F0B9A59E9B81578F634A1B416C1B78E /* PinCodeTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PinCodeTextField";
+			sourceTree = "<group>";
+		};
+		22B935564E8F94922D3F48E41E9E8D68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CACE39E17CCFAD623EA46FD6304804F /* SwiftyNotifications.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E76130DC0D22FE790463F8525B27ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2723571D41C84ED47F287ECAEE582 /* FTPopOverMenu_Swift.framework */,
+				0A76ACFB1831021058BA4DF6BFE8A887 /* MMDrawController.framework */,
+				9620579DF339EDFBE2602CC326FFA987 /* PinCodeTextField.framework */,
+				47D43B37E9BC277031A86C94C34BDC9A /* Pods_TabViewExample.framework */,
+				A48926B2A87C373172010523CCBFE5B3 /* SwiftyNotifications.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42886B1AE96AA4930D3411D020A4D946 /* PinCodeTextField */ = {
+			isa = PBXGroup;
+			children = (
+				71539F2EF0E77B4E7BF29BD4F7A61732 /* Core */,
+				160D5853C34B4C5988507D30328E8EFD /* Support Files */,
+				A7E171A8E8602916826621EF8D115D2D /* Swift */,
+			);
+			name = PinCodeTextField;
+			path = PinCodeTextField;
+			sourceTree = "<group>";
+		};
+		71539F2EF0E77B4E7BF29BD4F7A61732 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				27FF798B45F1B40FEDF04ABF45662E8B /* IntExtension.swift */,
+				E39A2749FF24DB2030CC6EE8271866B9 /* PinCodeTextField.swift */,
+				AA3622ABD65FF659E1892727EEB4E3DD /* StringExtension.swift */,
+				3A41FDEF638B95A3ACA165E38E9B1AFE /* TextHelper.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		728BF984B726FA428F871EC068270E1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7A867F01D5314E61398E5AF61FAEEA8 /* FTPopOverMenu_Swift */,
+				F516F20267F74F245A8086C807AD6F5B /* MMDrawController */,
+				42886B1AE96AA4930D3411D020A4D946 /* PinCodeTextField */,
+				DA0B2389F3924313DFE858652FE9B35F /* SwiftyNotifications */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				728BF984B726FA428F871EC068270E1B /* Pods */,
+				3E76130DC0D22FE790463F8525B27ABF /* Products */,
+				136E539994AD1F29BEAF779E1B0C817C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EAF3290797E1F8BBAD43F5FB216D767 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A282578EE659878B785855407BEB3A5 /* Info.plist */,
+				43A70D93AD06DFFC49575F8B3E9C23B9 /* SwiftyNotifications.modulemap */,
+				A70585793E8813388306D57CB3BEE189 /* SwiftyNotifications.xcconfig */,
+				87CFF94D9B8F02A550C32AA3D0E32847 /* SwiftyNotifications-dummy.m */,
+				585AF4BF96C75EB4F98ECF6302F1819D /* SwiftyNotifications-prefix.pch */,
+				07B70AB36FADC1FF394D1CE303ABCA8B /* SwiftyNotifications-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyNotifications";
+			sourceTree = "<group>";
+		};
+		A44120A3375043060D9F04622C8B4FD6 /* Pods-TabViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				CB5E53D6D8D490E30F949C159851EC70 /* Info.plist */,
+				772892E50FEA623F11A48CDCE2435AFE /* Pods-TabViewExample.modulemap */,
+				3BBE7F622AECE9687E22FA8593D3BF60 /* Pods-TabViewExample-acknowledgements.markdown */,
+				D134AF23FD06A317CB9B02A223494110 /* Pods-TabViewExample-acknowledgements.plist */,
+				AA984CFB9E0E1539F749787D0A8A05FF /* Pods-TabViewExample-dummy.m */,
+				AC95E88B57D01C2196165B447AA44756 /* Pods-TabViewExample-frameworks.sh */,
+				1034F334F3E77D00D5A89F8D3F137750 /* Pods-TabViewExample-resources.sh */,
+				B2C5283358D1E3D27DCD11AF7B1FE0D8 /* Pods-TabViewExample-umbrella.h */,
+				A6BD8320D95316C6C8E58C02558E968C /* Pods-TabViewExample.debug.xcconfig */,
+				58EAFD64706741494592206B8603CD47 /* Pods-TabViewExample.release.xcconfig */,
+			);
+			name = "Pods-TabViewExample";
+			path = "Target Support Files/Pods-TabViewExample";
+			sourceTree = "<group>";
+		};
+		A7E171A8E8602916826621EF8D115D2D /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				AE2AC0D611AA686770BCF51B2FD92BDF /* PinCodeTextFieldDelegate.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		B58A771ED92D94D48AAA65E8565B2582 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBC4B351ACBCAF8A2D6E1D3F4393621C /* Info.plist */,
+				CAFBA1D033C0A6EC6589FFE11D56B271 /* MMDrawController.modulemap */,
+				DE903BD4DA77374A0E4172384965EE3D /* MMDrawController.xcconfig */,
+				7800D2EF2F4AEFF3CADDD80115CAB0DF /* MMDrawController-dummy.m */,
+				9C2F1F89BCE9B51E155B212860CCB0CF /* MMDrawController-prefix.pch */,
+				9EBCF38797AE93FCCA600A5177861BC8 /* MMDrawController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMDrawController";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA0B2389F3924313DFE858652FE9B35F /* SwiftyNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				1800CC7AC53CAB5BD23C9D23D1617B3C /* RoundedView.swift */,
+				12810EAF0B379E761B559BDEF9AE65C5 /* SwiftyNotifications.swift */,
+				E8DEB34C64050A8F445F2CB20E66BB4E /* SwiftyNotificationsColor.swift */,
+				944BF466F3EDDA86408760F909AD10C5 /* SwiftyNotificationsDrawings.swift */,
+				22B935564E8F94922D3F48E41E9E8D68 /* Resources */,
+				8EAF3290797E1F8BBAD43F5FB216D767 /* Support Files */,
+			);
+			name = SwiftyNotifications;
+			path = SwiftyNotifications;
+			sourceTree = "<group>";
+		};
+		F516F20267F74F245A8086C807AD6F5B /* MMDrawController */ = {
+			isa = PBXGroup;
+			children = (
+				F2826F2CBDB97B26DAD6EF7E410B4770 /* CGPoint+Draw.swift */,
+				5931AB340398EA23D8E871BBDD215288 /* MMDrawerViewController.swift */,
+				91CA5FCDBD7E1587959033E5C24714B5 /* SliderManager.swift */,
+				E9E7D3E412C256A3C5E32D93D0CD69FF /* UIVIew+Draw.swift */,
+				E8BB6C132E6FA97579B8A6E9687D1592 /* UIViewController+Draw.swift */,
+				B58A771ED92D94D48AAA65E8565B2582 /* Support Files */,
+			);
+			name = MMDrawController;
+			path = MMDrawController;
+			sourceTree = "<group>";
+		};
+		F7A867F01D5314E61398E5AF61FAEEA8 /* FTPopOverMenu_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				177BC0FF5161A9CF00A10E9EA1B58DB8 /* FTPopOverMenu.swift */,
+				0BA78F57AB558593EBE571A244A9F412 /* Support Files */,
+			);
+			name = FTPopOverMenu_Swift;
+			path = FTPopOverMenu_Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F551DE9EC19A1932ADA14D95B18DF19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAD65E9C702077EB735A25C4339EA89 /* SwiftyNotifications-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920CB74573349A3844DF91325FAAEE75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8628C2337893C684C65F5EB1E75E8464 /* FTPopOverMenu_Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0101950E7F8658D0EF1782B3317C912 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393FE8225D0D39EBC8D2E741D468203E /* PinCodeTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C002AEF1758A77BA3A7E426E08DFDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DC368D5160EEE8BDEB723FF0D2EBBE /* MMDrawController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3B8FD43C8C4E2FB9E748BF59F40805 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4C309EC7C51A8EF30B924A226D3256 /* Pods-TabViewExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E47C37FA72CC8CEC8A7DE74C95719FF /* SwiftyNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6036B9CE8676935172FA7E5E5FEFC1C1 /* Build configuration list for PBXNativeTarget "SwiftyNotifications" */;
+			buildPhases = (
+				A6C7852A3CED0BDCE7EBE0B5398050AB /* Sources */,
+				2F4B2FB8C4951DF9E420478D752BA7BF /* Frameworks */,
+				7885E951A690004E3F3AA76F16B7509F /* Resources */,
+				2F551DE9EC19A1932ADA14D95B18DF19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyNotifications;
+			productName = SwiftyNotifications;
+			productReference = A48926B2A87C373172010523CCBFE5B3 /* SwiftyNotifications.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E95954AFB091B14093F087344B6D635 /* Pods-TabViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FF6ED71BD86DF2F5BE24B992B5D930 /* Build configuration list for PBXNativeTarget "Pods-TabViewExample" */;
+			buildPhases = (
+				D260D85E36BA008F3B26C00CA998F50F /* Sources */,
+				E694ADD91D8155A3A739C40478A05270 /* Frameworks */,
+				CC3B8FD43C8C4E2FB9E748BF59F40805 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422DF9FA72831F0A4A71FF0D1E3E4448 /* PBXTargetDependency */,
+				CB18C1E2ECDDB7D39B2D471514B6D952 /* PBXTargetDependency */,
+				9B8D3FDE067AEF49183156B1D74B9CF9 /* PBXTargetDependency */,
+				60E54FC7390538A8288F52F47FB41CE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TabViewExample";
+			productName = "Pods-TabViewExample";
+			productReference = 47D43B37E9BC277031A86C94C34BDC9A /* Pods_TabViewExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		874E480F85CBAA6C9526C6C5FBDD8AB4 /* PinCodeTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E15F53B9B01C225AF172F60640E53F /* Build configuration list for PBXNativeTarget "PinCodeTextField" */;
+			buildPhases = (
+				E32ED1FC50764B68140EA6E95B2047F5 /* Sources */,
+				05215723450FFE24ECB9689A803C2090 /* Frameworks */,
+				C0101950E7F8658D0EF1782B3317C912 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinCodeTextField;
+			productName = PinCodeTextField;
+			productReference = 9620579DF339EDFBE2602CC326FFA987 /* PinCodeTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4EC9035DEC9ACAE2EC8ADAAC0B00FFA /* FTPopOverMenu_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F37EC0084F9968F11D2D2A63A527F3 /* Build configuration list for PBXNativeTarget "FTPopOverMenu_Swift" */;
+			buildPhases = (
+				E58FE6EC59C5CABF6CCA26FD2D2ABB42 /* Sources */,
+				BDCC065364B881A363E34FC9214A7EEC /* Frameworks */,
+				920CB74573349A3844DF91325FAAEE75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTPopOverMenu_Swift;
+			productName = FTPopOverMenu_Swift;
+			productReference = EFB2723571D41C84ED47F287ECAEE582 /* FTPopOverMenu_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E63D7D6CAD9361D6D8DF4B256A22F9A2 /* MMDrawController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5419C48865F2EB795357009A86624D2 /* Build configuration list for PBXNativeTarget "MMDrawController" */;
+			buildPhases = (
+				E549275C69CF2FA86B6CFE0D7ACD83D9 /* Sources */,
+				1ADD4332A4FC962AC5751A533EECD784 /* Frameworks */,
+				C9C002AEF1758A77BA3A7E426E08DFDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMDrawController;
+			productName = MMDrawController;
+			productReference = 0A76ACFB1831021058BA4DF6BFE8A887 /* MMDrawController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3E76130DC0D22FE790463F8525B27ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4EC9035DEC9ACAE2EC8ADAAC0B00FFA /* FTPopOverMenu_Swift */,
+				E63D7D6CAD9361D6D8DF4B256A22F9A2 /* MMDrawController */,
+				874E480F85CBAA6C9526C6C5FBDD8AB4 /* PinCodeTextField */,
+				5E95954AFB091B14093F087344B6D635 /* Pods-TabViewExample */,
+				1E47C37FA72CC8CEC8A7DE74C95719FF /* SwiftyNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7885E951A690004E3F3AA76F16B7509F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E90CAC01515D726998C09FC283D1E65 /* SwiftyNotifications.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C7852A3CED0BDCE7EBE0B5398050AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6865EE348850B129103481ADB619C645 /* RoundedView.swift in Sources */,
+				9F32229644F8AB6B7179CE51C39CB7DA /* SwiftyNotifications-dummy.m in Sources */,
+				E8C70120768D9778A5ADA2D2EE77A623 /* SwiftyNotifications.swift in Sources */,
+				228E7647D31DDBA87009B6BF4EBAD899 /* SwiftyNotificationsColor.swift in Sources */,
+				CE3403CBFDE8FAEBFE4153254B0EA419 /* SwiftyNotificationsDrawings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D260D85E36BA008F3B26C00CA998F50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAF6F28CDB9935855496C4FEBC63E51 /* Pods-TabViewExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32ED1FC50764B68140EA6E95B2047F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D5ABF8103DA4D5723A9533970ABA14 /* IntExtension.swift in Sources */,
+				C6BAC5F4562362BE99BD2B120EC32CDC /* PinCodeTextField-dummy.m in Sources */,
+				32C635180BCEFC4DD7756C75E73DFC46 /* PinCodeTextField.swift in Sources */,
+				2D493C1C7DEBE77AF4CB87180FD2F0A5 /* PinCodeTextFieldDelegate.swift in Sources */,
+				3066727CC4BEF2748BC3EB6BEFB19487 /* StringExtension.swift in Sources */,
+				F7E1112676E656664721A897A86A372E /* TextHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E549275C69CF2FA86B6CFE0D7ACD83D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C961BE587185FA5A6820DA1A31E1E624 /* CGPoint+Draw.swift in Sources */,
+				5DECFD620E38C48E7DFD234795D15481 /* MMDrawController-dummy.m in Sources */,
+				27DCA4CC51F7FB83FB2AFBF817CD7AEA /* MMDrawerViewController.swift in Sources */,
+				05BA5D592FA79C781329D5BF6AE63181 /* SliderManager.swift in Sources */,
+				A5E31AABA3B59815A78A237E555B9712 /* UIVIew+Draw.swift in Sources */,
+				CB59654E677B4D9F6E1B2485DBCF1771 /* UIViewController+Draw.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58FE6EC59C5CABF6CCA26FD2D2ABB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC41E7B87FC45DAC600C91253B56BD40 /* FTPopOverMenu.swift in Sources */,
+				CEB89D5EAF766064B93897C10D94322F /* FTPopOverMenu_Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		422DF9FA72831F0A4A71FF0D1E3E4448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTPopOverMenu_Swift;
+			target = A4EC9035DEC9ACAE2EC8ADAAC0B00FFA /* FTPopOverMenu_Swift */;
+			targetProxy = 346ABA4FBAB5529D54F1FF6A7D18AB73 /* PBXContainerItemProxy */;
+		};
+		60E54FC7390538A8288F52F47FB41CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyNotifications;
+			target = 1E47C37FA72CC8CEC8A7DE74C95719FF /* SwiftyNotifications */;
+			targetProxy = 27FDDB0806E1F11890A6B87B5EF40C40 /* PBXContainerItemProxy */;
+		};
+		9B8D3FDE067AEF49183156B1D74B9CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinCodeTextField;
+			target = 874E480F85CBAA6C9526C6C5FBDD8AB4 /* PinCodeTextField */;
+			targetProxy = 2EE969F27759ED18420E623163211520 /* PBXContainerItemProxy */;
+		};
+		CB18C1E2ECDDB7D39B2D471514B6D952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMDrawController;
+			target = E63D7D6CAD9361D6D8DF4B256A22F9A2 /* MMDrawController */;
+			targetProxy = 2E36845FC282B67C6EAAE9CD9F83A939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A0F4128D92F2C9BFB420F21F11865A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BD8320D95316C6C8E58C02558E968C /* Pods-TabViewExample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabViewExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabViewExample/Pods-TabViewExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TabViewExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		475D2628F2621A448E7C466E3E486148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70585793E8813388306D57CB3BEE189 /* SwiftyNotifications.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyNotifications/SwiftyNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyNotifications/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyNotifications/SwiftyNotifications.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B50184CE6B9EAAC1BF155A307453D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6858401789E30DD062D5FE07A6C9A3F /* PinCodeTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinCodeTextField/PinCodeTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinCodeTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinCodeTextField/PinCodeTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PinCodeTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5008D553BFF0C29AEC94483E235A636A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EAFD64706741494592206B8603CD47 /* Pods-TabViewExample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TabViewExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabViewExample/Pods-TabViewExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TabViewExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5519F3EA5771CD4E6880B7BA58ECE824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B57B91114FDECEABD31B4894EAC7A0 /* FTPopOverMenu_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FTPopOverMenu_Swift/FTPopOverMenu_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTPopOverMenu_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTPopOverMenu_Swift/FTPopOverMenu_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FTPopOverMenu_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CDE27570AD7A65FC877F657D69E893B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE903BD4DA77374A0E4172384965EE3D /* MMDrawController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawController/MMDrawController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDrawController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDrawController/MMDrawController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MMDrawController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73AC8E7B48883FA9584BE20B4E86518B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE903BD4DA77374A0E4172384965EE3D /* MMDrawController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawController/MMDrawController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDrawController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDrawController/MMDrawController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MMDrawController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8DD258EC083E2930E9CE6156BCC6A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B57B91114FDECEABD31B4894EAC7A0 /* FTPopOverMenu_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FTPopOverMenu_Swift/FTPopOverMenu_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTPopOverMenu_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTPopOverMenu_Swift/FTPopOverMenu_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FTPopOverMenu_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1ED531A2F698BB2236B688E5D96315A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70585793E8813388306D57CB3BEE189 /* SwiftyNotifications.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyNotifications/SwiftyNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyNotifications/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyNotifications/SwiftyNotifications.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD0C00C93EC929E1B4EF699E20041AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6858401789E30DD062D5FE07A6C9A3F /* PinCodeTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PinCodeTextField/PinCodeTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinCodeTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PinCodeTextField/PinCodeTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PinCodeTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F37EC0084F9968F11D2D2A63A527F3 /* Build configuration list for PBXNativeTarget "FTPopOverMenu_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8DD258EC083E2930E9CE6156BCC6A1C /* Debug */,
+				5519F3EA5771CD4E6880B7BA58ECE824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6036B9CE8676935172FA7E5E5FEFC1C1 /* Build configuration list for PBXNativeTarget "SwiftyNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475D2628F2621A448E7C466E3E486148 /* Debug */,
+				C1ED531A2F698BB2236B688E5D96315A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E15F53B9B01C225AF172F60640E53F /* Build configuration list for PBXNativeTarget "PinCodeTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0C00C93EC929E1B4EF699E20041AE2 /* Debug */,
+				4B50184CE6B9EAAC1BF155A307453D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FF6ED71BD86DF2F5BE24B992B5D930 /* Build configuration list for PBXNativeTarget "Pods-TabViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0F4128D92F2C9BFB420F21F11865A2 /* Debug */,
+				5008D553BFF0C29AEC94483E235A636A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5419C48865F2EB795357009A86624D2 /* Build configuration list for PBXNativeTarget "MMDrawController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDE27570AD7A65FC877F657D69E893B /* Debug */,
+				73AC8E7B48883FA9584BE20B4E86518B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

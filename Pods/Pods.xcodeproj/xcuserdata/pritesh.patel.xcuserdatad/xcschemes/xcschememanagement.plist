@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FTPopOverMenu_Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MMDrawController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PinCodeTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TabViewExample.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyNotifications.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1E47C37FA72CC8CEC8A7DE74C95719FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E95954AFB091B14093F087344B6D635</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>874E480F85CBAA6C9526C6C5FBDD8AB4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4EC9035DEC9ACAE2EC8ADAAC0B00FFA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E63D7D6CAD9361D6D8DF4B256A22F9A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

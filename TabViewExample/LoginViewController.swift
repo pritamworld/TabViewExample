@@ -7,17 +7,24 @@
 //
 
 import UIKit
-
+import PinCodeTextField
+import FTPopOverMenu_Swift
 class LoginViewController: UIViewController {
 
+    var rb : UIBarButtonItem!
+    @IBOutlet weak var pinCodeTextField: PinCodeTextField!
+    var menuOptionNameArray : [String] = ["Share","Delete","Upload","Download"]
+    var menuOptionImageNameArray : [String] = ["Pokemon_Go_01","Pokemon_Go_01","Pokemon_Go_01","Pokemon_Go_01"]
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
-         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
+        rb = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
+         self.navigationItem.rightBarButtonItem = rb
+        
+        
     }
     func addTapped()  {
-        
+       
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -26,13 +33,19 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginClick(_ sender: UIButton) {
         // Swift 3.0
-        
+        /*
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "mainTabView")
         if let navigator = navigationController {
             navigator.pushViewController(controller, animated: true)
         }
         //self.present(controller, animated: true, completion: nil)
+        */
+        FTPopOverMenu.showForSender(sender: sender, with: menuOptionNameArray, menuImageArray: menuOptionImageNameArray, done: { (selectedIndex) -> () in
+            print(selectedIndex)
+        }) {
+            
+        }
 
     }
 
