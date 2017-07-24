@@ -9,7 +9,7 @@
 import UIKit
 import PinCodeTextField
 import FTPopOverMenu_Swift
-class LoginViewController: UIViewController {
+class LoginViewController: BaseViewController {
 
     var rb : UIBarButtonItem!
     @IBOutlet weak var pinCodeTextField: PinCodeTextField!
@@ -17,6 +17,7 @@ class LoginViewController: UIViewController {
     var menuOptionImageNameArray : [String] = ["Pokemon_Go_01","Pokemon_Go_01","Pokemon_Go_01","Pokemon_Go_01"]
     override func viewDidLoad() {
         super.viewDidLoad()
+         addSlideMenuButton()
         // Do any additional setup after loading the view.
         rb = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
          self.navigationItem.rightBarButtonItem = rb

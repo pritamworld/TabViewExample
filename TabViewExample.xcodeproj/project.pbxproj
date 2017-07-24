@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A5FC5F1F2626CA00B62F02 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5FC5D1F2626CA00B62F02 /* BaseViewController.swift */; };
+		28A5FC601F2626CA00B62F02 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5FC5E1F2626CA00B62F02 /* MenuViewController.swift */; };
 		28E25CC21F20DC6900CCA9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E25CC11F20DC6900CCA9F9 /* AppDelegate.swift */; };
 		28E25CC41F20DC6900CCA9F9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E25CC31F20DC6900CCA9F9 /* FirstViewController.swift */; };
 		28E25CC61F20DC6900CCA9F9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E25CC51F20DC6900CCA9F9 /* SecondViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		14190E4C636E8C270C0A9023 /* Pods-TabViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabViewExample/Pods-TabViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		28A5FC5D1F2626CA00B62F02 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		28A5FC5E1F2626CA00B62F02 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		28E25CBE1F20DC6900CCA9F9 /* TabViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E25CC11F20DC6900CCA9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28E25CC31F20DC6900CCA9F9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +56,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		28A5FC581F26267C00B62F02 /* AKSwiftSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				28A5FC5D1F2626CA00B62F02 /* BaseViewController.swift */,
+				28A5FC5E1F2626CA00B62F02 /* MenuViewController.swift */,
+			);
+			name = AKSwiftSlideMenu;
+			sourceTree = "<group>";
+		};
 		28E25CB51F20DC6900CCA9F9 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +86,7 @@
 		28E25CC01F20DC6900CCA9F9 /* TabViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				28A5FC581F26267C00B62F02 /* AKSwiftSlideMenu */,
 				28E25CC11F20DC6900CCA9F9 /* AppDelegate.swift */,
 				28E25CC31F20DC6900CCA9F9 /* FirstViewController.swift */,
 				28E25CC51F20DC6900CCA9F9 /* SecondViewController.swift */,
@@ -217,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A5FC5F1F2626CA00B62F02 /* BaseViewController.swift in Sources */,
+				28A5FC601F2626CA00B62F02 /* MenuViewController.swift in Sources */,
 				28E25CD61F20DCB100CCA9F9 /* LoginViewController.swift in Sources */,
 				28E25CC61F20DC6900CCA9F9 /* SecondViewController.swift in Sources */,
 				28E25CC21F20DC6900CCA9F9 /* AppDelegate.swift in Sources */,
@@ -382,6 +398,7 @@
 				28E25CD41F20DC6900CCA9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
